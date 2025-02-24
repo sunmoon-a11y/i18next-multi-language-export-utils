@@ -1,0 +1,28 @@
+{
+  "name": "i18next",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "npx prettier --write ./src/.",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "i18next": "^24.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^14.1.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/parser": "^7.1.1",
+    "@vitejs/plugin-react": "^4.1.2",
+    "typescript": "^5.4.2",
+    "vite": "^5.1.5",
+    "vite-plugin-external": "^4.3.1",
+    "vite-plugin-node-polyfills": "^0.21.0"
+  }
+}
